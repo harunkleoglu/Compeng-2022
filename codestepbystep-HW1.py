@@ -522,6 +522,13 @@ def sum_to(n):
 
 # [40 to_binary]
 
+def to_binary(n):
+    if n == 1:
+        return "1"
+    if n == 0:
+        return "0"
+    return to_binary(n // 2) + str(n % 2)
+
 # [41 while_loops]
 
 # 10
