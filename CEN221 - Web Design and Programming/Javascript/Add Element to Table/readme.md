@@ -1,0 +1,1 @@
+How to add element to a table via Javascript.
