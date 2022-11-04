@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS and JQuerry</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <style>
+        th {
+            background-color: gray;
+        }
+
+        td {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <label>
+        Student ID:
+        <input type="number" id="stdid">
+    </label>
+
+    <label>
+        Student Name:
+        <input type="text" id="stdname">
+    </label>
+
+    <label>
+        Visa Score:
+        <input type="number" id="visascore">
+    </label>
+
+    <label>
+        Final Score:
+        <input type="number" id="finalscore">
+    </label>
+
+
+    <button type="submit" id="submitbtn">Record Student</button>
+
+
+    <br> 
+    <br>
+    <center>
+        <table id="StudentList" border="1" style="border: 1px; border-spacing: 0px;" width="80%">
+            <tr>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Visa</th>
+                <th>Final</th>
+                <th>Total Score</th>
+                <th>Operation</th>
+            </tr>
+            <tbody>
+
+            </tbody>
+        </table>
+    </center>
+
+</body>
+
+</html>
