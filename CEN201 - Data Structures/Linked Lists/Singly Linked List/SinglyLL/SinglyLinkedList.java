@@ -82,24 +82,16 @@ public class LinkedList {
 			gezici = gezici.next;
 		}
 	}
-	
-	/*public void insert(int data) {
-		Node gezici=zeroth();
-		
-		if(gezici==null) {
-			Node yeniEklenecek=new Node(data,gezici.next);
-			head = yeniEklenecek;
-		}
-		else {			
-			while(gezici.next!=null) {
-				gezici=gezici.next;
-			}
-			Node yeniEklenecek=new Node(data,gezici.next);
-			gezici.next = yeniEklenecek;
-			yeniEklenecek = null;
-		}
-		
-		
-	}
-*/
+
+	/*
+	 * public void insert(int data) { Node gezici=zeroth();
+	 * 
+	 * if(gezici==null) { Node yeniEklenecek=new Node(data,gezici.next); head =
+	 * yeniEklenecek; } else { while(gezici.next!=null) { gezici=gezici.next; } Node
+	 * yeniEklenecek=new Node(data,gezici.next); gezici.next = yeniEklenecek;
+	 * yeniEklenecek = null; }
+	 * 
+	 * 
+	 * }
+	 */
 }

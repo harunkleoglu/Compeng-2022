@@ -1,0 +1,12 @@
+public class Node {
+	
+	int data;
+	Node next;
+	Node previous;
+	
+	public Node(int data, Node next, Node previous) {
+		this.data = data;
+		this.next = previous;
+	}
+
+}
