@@ -1,0 +1,18 @@
+.utility-badge {
+    background-color: #6610f2;
+}
+
+.not-live-badge {
+    background-color: #d51f30;
+    color: white;
+}
+
+.live-badge {
+    background-color: #08c46c;
+    color: white;
+}
+
+.under-development-badge {
+    background-color: #ffc107;
+    color: #181717;
+}

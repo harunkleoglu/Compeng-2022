@@ -1,0 +1,29 @@
+//// GENERAL BUGS:
+
+//// TABLE BUGS:
+
+<li class="table m-0">
+   <small>There is no <code>validation</code> for input fields.</small>
+</li>
+<li class="table m-0">
+    <small>There is no method to <code>sort elements.</code></small>
+</li>
+
+//// CALCULATOR BUGS:
+
+
+<li class="calculator m-0">
+    <small>The program is not working with <code>full functionality</code> yet.</small>
+</li>
+
+<li class="calculator m-0">
+    <small>The calculator is not capable to calculate <code>floating numbers.</code></small>
+</li>
+
+////  VERSION CONTROL:
+
+<code class="version-control">
+
+v0.1.0-alpha
+
+</code>
