@@ -1,15 +1,24 @@
+$(".version-control").load("Data.txt .version-control");
+
 function startTime() {
-    $(".version-control").load("Data.txt .version-control");
+
     const today = new Date();
-    let h = today.getHours();
-    let m = today.getMinutes();
-    let s = today.getSeconds();
-    m = checkTime(m);
-    s = checkTime(s);
-    document.getElementById('dateText').innerHTML =  "<kbd>"+h + ":" + m + ":" + s+"</kbd>";
+    
+    let hour = today.getHours();
+    let min = today.getMinutes();
+    let sec = today.getSeconds();
+    
+    min = checkTime(min);
+    sec = checkTime(sec);
+
+    document.getElementById('dateText').innerHTML = '<h4>' + hour + ":" + min + ":" + sec + '</h4>';
     setTimeout(startTime, 1000);
+
 }
+
 function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+
+    if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
     return i;
+
 }

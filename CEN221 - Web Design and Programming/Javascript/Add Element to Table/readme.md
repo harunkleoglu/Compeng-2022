@@ -1,1 +1,1 @@
-How to add element to a table via Javascript.
+<h1>Adding Element to a Table in JavaScript</h1>

@@ -1,3 +1,23 @@
+h1,h2,h3,h4,h5,h6,hr,p,a{
+    font-family: 'Baloo 2', cursive;
+    color: white;
+    font-weight: 600;
+}
+body{
+    background-color: #19191a
+}
+.Header{
+    background-color: #262627;
+}
+.KnownBugs *{
+    color: #cb676c;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Baloo 2';
+}
+.Table{
+    background-color: white;
+}
 .utility-badge {
     background-color: #6610f2;
 }
@@ -16,3 +36,31 @@
     background-color: #ffc107;
     color: #181717;
 }
+
+.ApplicationWindow {
+    background-color: #409cff;
+    box-shadow: 0px 0px 7px #409cff
+}
+
+.Warning-Container .Warning-Banner-Text{
+    background-color: #ffc107;
+}
+.Warning-Banner-Text *{
+    color: #262627;
+}
+.Warning-Banner-Text .version-control{
+    color: #9f10ff;
+    font-family: 'Baloo 2',cursive;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.badge{
+    font-family: 'Baloo 2',cursive;
+    font-weight: 600;
+}
+
+.Numpad .Pad{
+    background-color: #424242;
+}
+
